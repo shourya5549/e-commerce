@@ -24,11 +24,11 @@ function Products() {
     }
     return (
         <>
-          <div className="flex flex-wrap gap-4 w-full px-4 md:px-8 lg:px-16 mx-auto">
+          <div className="flex flex-wrap gap-8 lg:gap-12 xl:gap-20 py-4 w-full px-4 md:px-8 lg:px-16 justify-center">
       {product.map((prod) => {
         return (
           <div
-            className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 max-w-sm ml-16 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+            className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
             key={prod.id}
           >
             <a href="#">
